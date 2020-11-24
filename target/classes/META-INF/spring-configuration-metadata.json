@@ -1,0 +1,49 @@
+{
+  "groups": [
+    {
+      "name": "people",
+      "type": "com.atguigu.springboot.bean.People",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    }
+  ],
+  "properties": [
+    {
+      "name": "people.age",
+      "type": "java.lang.Integer",
+      "sourceType": "com.atguigu.springboot.bean.People",
+      "defaultValue": 0
+    },
+    {
+      "name": "people.date",
+      "type": "java.util.Date",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    },
+    {
+      "name": "people.dog",
+      "type": "com.atguigu.springboot.bean.Dog",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    },
+    {
+      "name": "people.flag",
+      "type": "java.lang.Boolean",
+      "sourceType": "com.atguigu.springboot.bean.People",
+      "defaultValue": false
+    },
+    {
+      "name": "people.lists",
+      "type": "java.util.List<java.lang.Object>",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    },
+    {
+      "name": "people.maps",
+      "type": "java.util.Map<java.lang.String,java.lang.Object>",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    },
+    {
+      "name": "people.name",
+      "type": "java.lang.String",
+      "sourceType": "com.atguigu.springboot.bean.People"
+    }
+  ],
+  "hints": []
+}

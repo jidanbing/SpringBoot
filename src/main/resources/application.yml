@@ -1,0 +1,17 @@
+server:
+  port: 8080
+  path: /hello
+
+spring:
+  profiles:
+    active: dev
+---
+
+server:
+  port: 8081
+spring:
+  profiles: dev
+---
+server:
+  port: 8082
+
